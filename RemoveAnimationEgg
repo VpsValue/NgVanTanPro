@@ -2,7 +2,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Script";
 	Text = "By Nguyễn Văn Tân";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-end
 for i,v in pairs(getgc(true)) do
    if (typeof(v) == 'table' and rawget(v, 'OpenEgg')) then
        v.OpenEgg = function()
