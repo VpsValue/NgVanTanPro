@@ -7,3 +7,4 @@ if v:IsA("MeshPart") then
 v.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
 end
 end
+end
