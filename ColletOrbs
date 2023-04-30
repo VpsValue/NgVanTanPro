@@ -1,8 +1,3 @@
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Script";
-	Text = "By Nguyễn Văn Tân";
-	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
 _G.toggle = true
 while _G.toggle do
 wait()
