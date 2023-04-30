@@ -6,10 +6,6 @@ for i,v in pairs(game.Workspace["__THINGS"].Orbs:GetDescendants()) do
 if v:IsA("Part") then
 v.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
 end
-for i,v in pairs(game.Workspace["__THINGS"].Lootbags:GetDescendants()) do
-if v:IsA("MeshPart") then
-v.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
-end
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "GUI";
 	Text = "By Nguyễn Văn Tân";
