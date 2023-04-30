@@ -1,0 +1,14 @@
+_G.toggle = true
+while _G.toggle do
+wait()
+
+for i,v in pairs(game.Workspace["__THINGS"].Orbs:GetDescendants()) do
+if v:IsA("Part") then
+v.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
+end
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "GUI";
+	Text = "By Nguyễn Văn Tân";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+end
+
