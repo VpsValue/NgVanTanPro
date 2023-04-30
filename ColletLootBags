@@ -6,9 +6,4 @@ for i,v in pairs(game.Workspace["__THINGS"].Lootbags:GetDescendants()) do
 if v:IsA("MeshPart") then
 v.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
 end
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Script";
-	Text = "By Nguyễn Văn Tân";
-	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-end
 end
