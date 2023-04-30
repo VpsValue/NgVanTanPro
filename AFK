@@ -54,7 +54,7 @@ Activate.BorderSizePixel = 0
 Activate.Position = UDim2.new(0.0330629945, 0, 0.243326917, 0)
 Activate.Size = UDim2.new(0, 274, 0, 59)
 Activate.Font = Enum.Font.GothamBold
-Activate.Text = "Activate"
+Activate.Text = "Hoạt Động"
 Activate.TextColor3 = Color3.fromRGB(0, 255, 127)
 Activate.TextSize = 43.000
 Activate.TextStrokeColor3 = Color3.fromRGB(102, 255, 115)
@@ -70,13 +70,13 @@ end)
 
 UICorner.Parent = Activate
 
-OpenClose.Name = "Mở/Đóng"
+OpenClose.Name = "Open/Close"
 OpenClose.Parent = Rice
 OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
 OpenClose.Size = UDim2.new(0, 247, 0, 35)
 OpenClose.Font = Enum.Font.GothamBold
-OpenClose.Text = "Open/Close"
+OpenClose.Text = "Mở/Đóng"
 OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenClose.TextSize = 14.000
 
